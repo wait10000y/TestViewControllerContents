@@ -1,5 +1,5 @@
 //
-//  SecondViewController.h
+//  RootViewController.h
 //  TestViewControllerContents
 //
 //  Created by 王士良 on 2017/11/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
-
+@interface RootViewController : UIViewController
 
 @end
-

@@ -7,15 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E74059E71FC82703005FD2E5 /* NormalViewsRelactions.m in Sources */ = {isa = PBXBuildFile; fileRef = E74059E61FC82703005FD2E5 /* NormalViewsRelactions.m */; };
 		E776A9531FBBE3FC00540682 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E776A9521FBBE3FC00540682 /* AppDelegate.m */; };
 		E776A9561FBBE3FC00540682 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E776A9551FBBE3FC00540682 /* FirstViewController.m */; };
-		E776A9591FBBE3FC00540682 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E776A9581FBBE3FC00540682 /* SecondViewController.m */; };
 		E776A95C1FBBE3FC00540682 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E776A95A1FBBE3FC00540682 /* Main.storyboard */; };
 		E776A95E1FBBE3FC00540682 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E776A95D1FBBE3FC00540682 /* Assets.xcassets */; };
 		E776A9611FBBE3FC00540682 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E776A95F1FBBE3FC00540682 /* LaunchScreen.storyboard */; };
 		E776A9641FBBE3FC00540682 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E776A9631FBBE3FC00540682 /* main.m */; };
 		E776A96E1FBBE3FC00540682 /* TestViewControllerContentsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E776A96D1FBBE3FC00540682 /* TestViewControllerContentsTests.m */; };
 		E776A9791FBBE3FC00540682 /* TestViewControllerContentsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E776A9781FBBE3FC00540682 /* TestViewControllerContentsUITests.m */; };
+		E776A9891FBBE5D200540682 /* NormalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E776A9871FBBE5D200540682 /* NormalViewController.m */; };
+		E776A98A1FBBE5D200540682 /* NormalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E776A9881FBBE5D200540682 /* NormalViewController.xib */; };
+		E776A98E1FBBE61800540682 /* NormalNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E776A98C1FBBE61800540682 /* NormalNavigationViewController.m */; };
+		E776A98F1FBBE61800540682 /* NormalNavigationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E776A98D1FBBE61800540682 /* NormalNavigationViewController.xib */; };
+		E776A9931FBBE64000540682 /* NormalTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E776A9911FBBE64000540682 /* NormalTabBarViewController.m */; };
+		E776A9941FBBE64000540682 /* NormalTabBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E776A9921FBBE64000540682 /* NormalTabBarViewController.xib */; };
+		E776A9981FBBE67800540682 /* NormalSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E776A9961FBBE67800540682 /* NormalSplitViewController.m */; };
+		E776A9991FBBE67800540682 /* NormalSplitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E776A9971FBBE67800540682 /* NormalSplitViewController.xib */; };
+		E776A99D1FBBE69E00540682 /* NormalPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E776A99B1FBBE69E00540682 /* NormalPageViewController.m */; };
+		E776A99E1FBBE69E00540682 /* NormalPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E776A99C1FBBE69E00540682 /* NormalPageViewController.xib */; };
+		E776A9A31FBBE7B400540682 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E776A9A11FBBE7B400540682 /* RootViewController.m */; };
+		E776A9A41FBBE7B400540682 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E776A9A21FBBE7B400540682 /* RootViewController.xib */; };
+		E776A9A81FBC1AE800540682 /* UIViewController+addViewControllers.m in Sources */ = {isa = PBXBuildFile; fileRef = E776A9A71FBC1AE800540682 /* UIViewController+addViewControllers.m */; };
+		E77D85D71FBECF3A00726A9F /* Test1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E77D85D61FBECF3A00726A9F /* Test1.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,13 +50,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E74059E51FC82703005FD2E5 /* NormalViewsRelactions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NormalViewsRelactions.h; sourceTree = "<group>"; };
+		E74059E61FC82703005FD2E5 /* NormalViewsRelactions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NormalViewsRelactions.m; sourceTree = "<group>"; };
 		E776A94E1FBBE3FC00540682 /* TestViewControllerContents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestViewControllerContents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E776A9511FBBE3FC00540682 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E776A9521FBBE3FC00540682 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E776A9541FBBE3FC00540682 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		E776A9551FBBE3FC00540682 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		E776A9571FBBE3FC00540682 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		E776A9581FBBE3FC00540682 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		E776A95B1FBBE3FC00540682 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E776A95D1FBBE3FC00540682 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E776A9601FBBE3FC00540682 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +68,27 @@
 		E776A9741FBBE3FC00540682 /* TestViewControllerContentsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestViewControllerContentsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E776A9781FBBE3FC00540682 /* TestViewControllerContentsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewControllerContentsUITests.m; sourceTree = "<group>"; };
 		E776A97A1FBBE3FC00540682 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E776A9861FBBE5D200540682 /* NormalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NormalViewController.h; sourceTree = "<group>"; };
+		E776A9871FBBE5D200540682 /* NormalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NormalViewController.m; sourceTree = "<group>"; };
+		E776A9881FBBE5D200540682 /* NormalViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NormalViewController.xib; sourceTree = "<group>"; };
+		E776A98B1FBBE61800540682 /* NormalNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NormalNavigationViewController.h; sourceTree = "<group>"; };
+		E776A98C1FBBE61800540682 /* NormalNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NormalNavigationViewController.m; sourceTree = "<group>"; };
+		E776A98D1FBBE61800540682 /* NormalNavigationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NormalNavigationViewController.xib; sourceTree = "<group>"; };
+		E776A9901FBBE64000540682 /* NormalTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NormalTabBarViewController.h; sourceTree = "<group>"; };
+		E776A9911FBBE64000540682 /* NormalTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NormalTabBarViewController.m; sourceTree = "<group>"; };
+		E776A9921FBBE64000540682 /* NormalTabBarViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NormalTabBarViewController.xib; sourceTree = "<group>"; };
+		E776A9951FBBE67800540682 /* NormalSplitViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NormalSplitViewController.h; sourceTree = "<group>"; };
+		E776A9961FBBE67800540682 /* NormalSplitViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NormalSplitViewController.m; sourceTree = "<group>"; };
+		E776A9971FBBE67800540682 /* NormalSplitViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NormalSplitViewController.xib; sourceTree = "<group>"; };
+		E776A99A1FBBE69E00540682 /* NormalPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NormalPageViewController.h; sourceTree = "<group>"; };
+		E776A99B1FBBE69E00540682 /* NormalPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NormalPageViewController.m; sourceTree = "<group>"; };
+		E776A99C1FBBE69E00540682 /* NormalPageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NormalPageViewController.xib; sourceTree = "<group>"; };
+		E776A9A01FBBE7B400540682 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		E776A9A11FBBE7B400540682 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		E776A9A21FBBE7B400540682 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		E776A9A61FBC1AE800540682 /* UIViewController+addViewControllers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+addViewControllers.h"; sourceTree = "<group>"; };
+		E776A9A71FBC1AE800540682 /* UIViewController+addViewControllers.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+addViewControllers.m"; sourceTree = "<group>"; };
+		E77D85D61FBECF3A00726A9F /* Test1.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Test1.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,11 +141,17 @@
 			children = (
 				E776A9511FBBE3FC00540682 /* AppDelegate.h */,
 				E776A9521FBBE3FC00540682 /* AppDelegate.m */,
-				E776A9541FBBE3FC00540682 /* FirstViewController.h */,
-				E776A9551FBBE3FC00540682 /* FirstViewController.m */,
-				E776A9571FBBE3FC00540682 /* SecondViewController.h */,
-				E776A9581FBBE3FC00540682 /* SecondViewController.m */,
+				E776A9A01FBBE7B400540682 /* RootViewController.h */,
+				E776A9A11FBBE7B400540682 /* RootViewController.m */,
+				E776A9A21FBBE7B400540682 /* RootViewController.xib */,
+				E776A9A61FBC1AE800540682 /* UIViewController+addViewControllers.h */,
+				E74059E51FC82703005FD2E5 /* NormalViewsRelactions.h */,
+				E74059E61FC82703005FD2E5 /* NormalViewsRelactions.m */,
+				E776A9A71FBC1AE800540682 /* UIViewController+addViewControllers.m */,
+				E776A9A51FBBE83200540682 /* MainView */,
+				E776A99F1FBBE76500540682 /* NormalController */,
 				E776A95A1FBBE3FC00540682 /* Main.storyboard */,
+				E77D85D61FBECF3A00726A9F /* Test1.storyboard */,
 				E776A95D1FBBE3FC00540682 /* Assets.xcassets */,
 				E776A95F1FBBE3FC00540682 /* LaunchScreen.storyboard */,
 				E776A9621FBBE3FC00540682 /* Info.plist */,
@@ -135,6 +176,37 @@
 				E776A97A1FBBE3FC00540682 /* Info.plist */,
 			);
 			path = TestViewControllerContentsUITests;
+			sourceTree = "<group>";
+		};
+		E776A99F1FBBE76500540682 /* NormalController */ = {
+			isa = PBXGroup;
+			children = (
+				E776A9861FBBE5D200540682 /* NormalViewController.h */,
+				E776A9871FBBE5D200540682 /* NormalViewController.m */,
+				E776A9881FBBE5D200540682 /* NormalViewController.xib */,
+				E776A98B1FBBE61800540682 /* NormalNavigationViewController.h */,
+				E776A98C1FBBE61800540682 /* NormalNavigationViewController.m */,
+				E776A98D1FBBE61800540682 /* NormalNavigationViewController.xib */,
+				E776A9901FBBE64000540682 /* NormalTabBarViewController.h */,
+				E776A9911FBBE64000540682 /* NormalTabBarViewController.m */,
+				E776A9921FBBE64000540682 /* NormalTabBarViewController.xib */,
+				E776A9951FBBE67800540682 /* NormalSplitViewController.h */,
+				E776A9961FBBE67800540682 /* NormalSplitViewController.m */,
+				E776A9971FBBE67800540682 /* NormalSplitViewController.xib */,
+				E776A99A1FBBE69E00540682 /* NormalPageViewController.h */,
+				E776A99B1FBBE69E00540682 /* NormalPageViewController.m */,
+				E776A99C1FBBE69E00540682 /* NormalPageViewController.xib */,
+			);
+			path = NormalController;
+			sourceTree = "<group>";
+		};
+		E776A9A51FBBE83200540682 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				E776A9551FBBE3FC00540682 /* FirstViewController.m */,
+				E776A9541FBBE3FC00540682 /* FirstViewController.h */,
+			);
+			path = MainView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,8 +316,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				E776A9611FBBE3FC00540682 /* LaunchScreen.storyboard in Resources */,
+				E776A9941FBBE64000540682 /* NormalTabBarViewController.xib in Resources */,
+				E776A99E1FBBE69E00540682 /* NormalPageViewController.xib in Resources */,
+				E776A98A1FBBE5D200540682 /* NormalViewController.xib in Resources */,
+				E776A9991FBBE67800540682 /* NormalSplitViewController.xib in Resources */,
+				E776A9A41FBBE7B400540682 /* RootViewController.xib in Resources */,
+				E77D85D71FBECF3A00726A9F /* Test1.storyboard in Resources */,
 				E776A95E1FBBE3FC00540682 /* Assets.xcassets in Resources */,
 				E776A95C1FBBE3FC00540682 /* Main.storyboard in Resources */,
+				E776A98F1FBBE61800540682 /* NormalNavigationViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +349,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E776A9591FBBE3FC00540682 /* SecondViewController.m in Sources */,
+				E74059E71FC82703005FD2E5 /* NormalViewsRelactions.m in Sources */,
 				E776A9531FBBE3FC00540682 /* AppDelegate.m in Sources */,
+				E776A9981FBBE67800540682 /* NormalSplitViewController.m in Sources */,
+				E776A98E1FBBE61800540682 /* NormalNavigationViewController.m in Sources */,
+				E776A9A31FBBE7B400540682 /* RootViewController.m in Sources */,
 				E776A9641FBBE3FC00540682 /* main.m in Sources */,
+				E776A9891FBBE5D200540682 /* NormalViewController.m in Sources */,
+				E776A9931FBBE64000540682 /* NormalTabBarViewController.m in Sources */,
+				E776A9A81FBC1AE800540682 /* UIViewController+addViewControllers.m in Sources */,
+				E776A99D1FBBE69E00540682 /* NormalPageViewController.m in Sources */,
 				E776A9561FBBE3FC00540682 /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -439,6 +525,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 64A273QXDU;
 				INFOPLIST_FILE = TestViewControllerContents/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wsliang.TestViewControllerContents;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -453,6 +540,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 64A273QXDU;
 				INFOPLIST_FILE = TestViewControllerContents/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wsliang.TestViewControllerContents;
 				PRODUCT_NAME = "$(TARGET_NAME)";
