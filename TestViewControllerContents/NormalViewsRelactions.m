@@ -58,6 +58,7 @@
 
     } while (tempObject!=nil);
 
+    return mStr;
 
 }
 

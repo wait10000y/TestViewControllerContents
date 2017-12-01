@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		E74059E71FC82703005FD2E5 /* NormalViewsRelactions.m in Sources */ = {isa = PBXBuildFile; fileRef = E74059E61FC82703005FD2E5 /* NormalViewsRelactions.m */; };
+		E753871F1FD101C200FA9515 /* testNavigation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E753871E1FD101C200FA9515 /* testNavigation.storyboard */; };
+		E75387221FD10DDC00FA9515 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E75387211FD10DDC00FA9515 /* BaseViewController.m */; };
+		E75387261FD10E2D00FA9515 /* TestNavigationNormalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E75387241FD10E2D00FA9515 /* TestNavigationNormalViewController.m */; };
+		E75387271FD10E2D00FA9515 /* TestNavigationNormalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E75387251FD10E2D00FA9515 /* TestNavigationNormalViewController.xib */; };
+		E753872B1FD1102000FA9515 /* TestNavigationNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E75387291FD1102000FA9515 /* TestNavigationNavigationViewController.m */; };
+		E753872C1FD1102000FA9515 /* TestNavigationNavigationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E753872A1FD1102000FA9515 /* TestNavigationNavigationViewController.xib */; };
 		E776A9531FBBE3FC00540682 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E776A9521FBBE3FC00540682 /* AppDelegate.m */; };
 		E776A9561FBBE3FC00540682 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E776A9551FBBE3FC00540682 /* FirstViewController.m */; };
 		E776A95C1FBBE3FC00540682 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E776A95A1FBBE3FC00540682 /* Main.storyboard */; };
@@ -52,6 +58,15 @@
 /* Begin PBXFileReference section */
 		E74059E51FC82703005FD2E5 /* NormalViewsRelactions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NormalViewsRelactions.h; sourceTree = "<group>"; };
 		E74059E61FC82703005FD2E5 /* NormalViewsRelactions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NormalViewsRelactions.m; sourceTree = "<group>"; };
+		E753871E1FD101C200FA9515 /* testNavigation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = testNavigation.storyboard; sourceTree = "<group>"; };
+		E75387201FD10DDC00FA9515 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		E75387211FD10DDC00FA9515 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		E75387231FD10E2D00FA9515 /* TestNavigationNormalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestNavigationNormalViewController.h; sourceTree = "<group>"; };
+		E75387241FD10E2D00FA9515 /* TestNavigationNormalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestNavigationNormalViewController.m; sourceTree = "<group>"; };
+		E75387251FD10E2D00FA9515 /* TestNavigationNormalViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestNavigationNormalViewController.xib; sourceTree = "<group>"; };
+		E75387281FD1102000FA9515 /* TestNavigationNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestNavigationNavigationViewController.h; sourceTree = "<group>"; };
+		E75387291FD1102000FA9515 /* TestNavigationNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestNavigationNavigationViewController.m; sourceTree = "<group>"; };
+		E753872A1FD1102000FA9515 /* TestNavigationNavigationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestNavigationNavigationViewController.xib; sourceTree = "<group>"; };
 		E776A94E1FBBE3FC00540682 /* TestViewControllerContents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestViewControllerContents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E776A9511FBBE3FC00540682 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E776A9521FBBE3FC00540682 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -148,10 +163,19 @@
 				E74059E51FC82703005FD2E5 /* NormalViewsRelactions.h */,
 				E74059E61FC82703005FD2E5 /* NormalViewsRelactions.m */,
 				E776A9A71FBC1AE800540682 /* UIViewController+addViewControllers.m */,
+				E75387201FD10DDC00FA9515 /* BaseViewController.h */,
+				E75387211FD10DDC00FA9515 /* BaseViewController.m */,
 				E776A9A51FBBE83200540682 /* MainView */,
 				E776A99F1FBBE76500540682 /* NormalController */,
 				E776A95A1FBBE3FC00540682 /* Main.storyboard */,
 				E77D85D61FBECF3A00726A9F /* Test1.storyboard */,
+				E753871E1FD101C200FA9515 /* testNavigation.storyboard */,
+				E75387281FD1102000FA9515 /* TestNavigationNavigationViewController.h */,
+				E75387291FD1102000FA9515 /* TestNavigationNavigationViewController.m */,
+				E753872A1FD1102000FA9515 /* TestNavigationNavigationViewController.xib */,
+				E75387231FD10E2D00FA9515 /* TestNavigationNormalViewController.h */,
+				E75387241FD10E2D00FA9515 /* TestNavigationNormalViewController.m */,
+				E75387251FD10E2D00FA9515 /* TestNavigationNormalViewController.xib */,
 				E776A95D1FBBE3FC00540682 /* Assets.xcassets */,
 				E776A95F1FBBE3FC00540682 /* LaunchScreen.storyboard */,
 				E776A9621FBBE3FC00540682 /* Info.plist */,
@@ -322,8 +346,11 @@
 				E776A9991FBBE67800540682 /* NormalSplitViewController.xib in Resources */,
 				E776A9A41FBBE7B400540682 /* RootViewController.xib in Resources */,
 				E77D85D71FBECF3A00726A9F /* Test1.storyboard in Resources */,
+				E75387271FD10E2D00FA9515 /* TestNavigationNormalViewController.xib in Resources */,
 				E776A95E1FBBE3FC00540682 /* Assets.xcassets in Resources */,
+				E753871F1FD101C200FA9515 /* testNavigation.storyboard in Resources */,
 				E776A95C1FBBE3FC00540682 /* Main.storyboard in Resources */,
+				E753872C1FD1102000FA9515 /* TestNavigationNavigationViewController.xib in Resources */,
 				E776A98F1FBBE61800540682 /* NormalNavigationViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -350,12 +377,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				E74059E71FC82703005FD2E5 /* NormalViewsRelactions.m in Sources */,
+				E75387221FD10DDC00FA9515 /* BaseViewController.m in Sources */,
 				E776A9531FBBE3FC00540682 /* AppDelegate.m in Sources */,
 				E776A9981FBBE67800540682 /* NormalSplitViewController.m in Sources */,
 				E776A98E1FBBE61800540682 /* NormalNavigationViewController.m in Sources */,
 				E776A9A31FBBE7B400540682 /* RootViewController.m in Sources */,
+				E753872B1FD1102000FA9515 /* TestNavigationNavigationViewController.m in Sources */,
 				E776A9641FBBE3FC00540682 /* main.m in Sources */,
 				E776A9891FBBE5D200540682 /* NormalViewController.m in Sources */,
+				E75387261FD10E2D00FA9515 /* TestNavigationNormalViewController.m in Sources */,
 				E776A9931FBBE64000540682 /* NormalTabBarViewController.m in Sources */,
 				E776A9A81FBC1AE800540682 /* UIViewController+addViewControllers.m in Sources */,
 				E776A99D1FBBE69E00540682 /* NormalPageViewController.m in Sources */,

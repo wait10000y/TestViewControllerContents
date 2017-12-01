@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="oO8-Oi-Svs">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--内部Nav界面-->
+        <scene sceneID="hZb-Og-uHi">
+            <objects>
+                <navigationController title="内部Nav界面" id="S8Y-xf-qhd" customClass="TestNavigationNavigationViewController" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Nav页面" id="dDZ-Hy-pHH"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="nb2-dU-yNp">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="37g-sP-lqc" kind="relationship" relationship="rootViewController" id="pdM-9j-CGM"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uZe-T6-qTI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-943" y="151"/>
+        </scene>
+        <!--事件View界面-->
+        <scene sceneID="HYu-DF-1i2">
+            <objects>
+                <viewController restorationIdentifier="TestNavigationNormalViewController" storyboardIdentifier="TestNavigationNormalViewController" title="事件View界面" id="37g-sP-lqc" customClass="TestNavigationNormalViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="BeD-zC-dgn"/>
+                        <viewControllerLayoutGuide type="bottom" id="JVw-1W-CkW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wuT-c9-Z56">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="描述内容" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="F8u-7n-fva">
+                                <rect key="frame" x="0.0" y="200" width="375" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WqT-0b-Cwc">
+                                <rect key="frame" x="181" y="139" width="100" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="present页面"/>
+                                <connections>
+                                    <action selector="actionOperations:" destination="37g-sP-lqc" eventType="touchUpInside" id="Vda-De-acU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FU9-Hx-WaT">
+                                <rect key="frame" x="37" y="80" width="100" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="&lt;返回上页面"/>
+                                <connections>
+                                    <action selector="actionBackLastView:" destination="37g-sP-lqc" eventType="touchUpInside" id="Jec-QU-Gv2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="db0-gF-8i5">
+                                <rect key="frame" x="54" y="139" width="100" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="push页面"/>
+                                <connections>
+                                    <action selector="actionOperations:" destination="37g-sP-lqc" eventType="touchUpInside" id="2jO-r3-S6S"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m4V-5j-oq9">
+                                <rect key="frame" x="193" y="80" width="100" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="&lt;&lt;返回根页面"/>
+                                <connections>
+                                    <action selector="actionOperations:" destination="37g-sP-lqc" eventType="touchUpInside" id="HQF-MC-cFB"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="test页面" id="81Y-5I-zwY"/>
+                    <navigationItem key="navigationItem" id="0Zc-M5-Kg8"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="w4J-1c-Egv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-210.40000000000001" y="150.67466266866569"/>
+        </scene>
+        <!--普通View界面-->
+        <scene sceneID="PcQ-bO-K7B">
+            <objects>
+                <viewController title="普通View界面" id="GZv-9S-jj7" customClass="TestNavigationNormalViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hyy-gx-FDW"/>
+                        <viewControllerLayoutGuide type="bottom" id="RLX-sm-WKV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="FZD-Ue-7fT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="普通VC" id="SWb-Rg-vj2"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pvQ-GE-tpo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-942" y="-537"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="01Y-EZ-fHd">
+            <objects>
+                <tabBarController id="9Ha-0G-22M" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="k7A-wC-aA0"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="HcR-H2-mld">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="GZv-9S-jj7" kind="relationship" relationship="viewControllers" id="yN5-Ba-bOL"/>
+                        <segue destination="S8Y-xf-qhd" kind="relationship" relationship="viewControllers" id="bSv-Al-j4d"/>
+                        <segue destination="37g-sP-lqc" kind="relationship" relationship="viewControllers" id="yoY-tx-nKS"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UuS-8q-75v" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1894" y="-205"/>
+        </scene>
+        <!--根部Nav界面-->
+        <scene sceneID="FGs-4K-5uB">
+            <objects>
+                <navigationController title="根部Nav界面" id="oO8-Oi-Svs" customClass="TestNavigationNavigationViewController" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="k7I-zx-lum">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="9Ha-0G-22M" kind="relationship" relationship="rootViewController" id="T7j-gn-zbd"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gog-qj-WDt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2759" y="-206"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="yoY-tx-nKS"/>
+    </inferredMetricsTieBreakers>
+</document>
